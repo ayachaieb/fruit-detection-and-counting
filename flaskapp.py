@@ -81,5 +81,3 @@ def display_video():
     video_path = os.path.join(folder_path, 'output.mp4')
     return send_from_directory(folder_path, 'output.mp4')
 
-if __name__ == "__main__":
-    app.run(debug=True)
